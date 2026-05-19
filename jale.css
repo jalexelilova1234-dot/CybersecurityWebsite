@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 60px;
+    border-bottom: 1px solid black;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-icon {
+    font-size: 28px;
+}
+.logo-kiber {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+.logo-kafedra {
+    font-size: 15px;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 16px;
+    color: slategray;
+}
+.nav-links a:hover {
+    background: lightgrey;
+}
+.kafedra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: darkblue;
+    padding: 70px 60px;
+    gap: 40px;
+}
+.kafedra-text {
+    max-width: 500px;
+    color: white;
+}
+.kafedra-text h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.kafedra-text p {
+    font-size: 24px;
+    line-height: 1.7;
+}
+.kafedra-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn-more {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px 22px;
+    transition: background 0.2s, color 0.2s;
+}
+.btn-more:hover {
+    background: white;
+    color: darkblue;
+}
+.btn-connection {
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 10px 22px;
+    color: white;
+    transition: background 0.2s, color 0.2s;
+}
+.btn-connection:hover {
+    background: white;
+    color: darkblue;
+}
+.kafedra-img img {
+    width: 450px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.why {
+    padding: 70px 60px;
+    text-align: center;
+    background: ghostwhite;
+}
+.why-sub {
+    font-size: 24px;
+    color: dimgray;
+    margin-bottom: 40px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.cards-bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 28px 24px;
+    text-align: left;
+    transition: box-shadow 0.2s;
+}
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.card-icon {
+    font-size: 28px;
+    color: darkblue;
+    display: block;
+    margin-bottom: 14px;
+}
+.card h2 {
+    font-size: 22px;
+    color: black;
+}
+.card p {
+    font-size: 17px;
+    color: dimgray;
+    line-height: 1.6;
+}
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: darkblue;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+.stat {
+    padding: 0 0 50px 0;
+}
+.stat h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 6px;
+}
+.stat p {
+    font-size: 18px;
+    color: lightsteelblue;
+}
+.footer {
+    background: #111827;
+    color: lightgray;
+    padding: 50px 60px 0;
+}
+.footer-inner {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr;
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid slategray;
+}
+.footer-logo {
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-brand p {
+    font-size: 16px;
+    color: darkgray;
+    line-height: 1.6;
+}
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 14px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: darkgray;
+    transition: color 0.2s;
+}
+.footer-links a:hover {
+    color: white;
+}
+.footer-contact p {
+    font-size: 16px;
+    color: darkgray;
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+.footer-bottom {
+    padding: 18px 0;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
